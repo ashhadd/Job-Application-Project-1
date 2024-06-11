@@ -1,0 +1,55 @@
+body{
+    background-color: lightgrey;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    width:50%;
+    
+}
+
+.form-group{
+    font-size: 17px;
+}
+
+.title{
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group input[type="number"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.submit{
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    width:200px ;
+    height:35px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: white;
+    color: green;
+    transition: 1s;
+}
