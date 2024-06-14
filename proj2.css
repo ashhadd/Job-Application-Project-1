@@ -1,0 +1,115 @@
+body{
+     font-family:Arial, Helvetica, sans-serif;
+     font-weight: 300;
+     line-height: 1.4;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-nav{
+    display: flex;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+}
+
+.search{
+    display: flex;
+}
+
+.search img{
+    cursor: pointer;
+}
+
+.search input{
+    width: 500px;
+}
+
+
+.mic img{
+    display: flex;
+    background-color: rgba(224, 216, 216, 0.991);
+    border-radius: 30px;
+    margin-left: 20px;
+    display: grid;
+    place-items: center;
+    width: 30px;
+    padding: 10px;
+}
+
+.side-nav{
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.tags{
+    display:flex;
+    padding: 10px 20px;
+    gap: 15px;
+    margin-top: 10px;
+    border-top: 1px solid black;
+}
+
+.tag{
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: lightgrey;
+}
+
+
+.container{
+    display: flex;
+}
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.side-icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-icons img{
+    width: 30px;
+}
+
+.side-icons p{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.main-container{
+    width: 100%;
+}
+
+main{
+    min-height: 100vh;
+    background-color: lightgray;
+}
